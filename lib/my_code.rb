@@ -73,13 +73,13 @@ def reduce_to_all_true(source_array)
   true
 end
 
-# def reduce_to_any_true(source_array)
-#   i = 0 
+def reduce_to_any_true(source_array)
+  i = 0 
   
-#   while i < source_array.size do 
-#     if source_array.size == true || source_array.size == false
-#       return true
+  while i < source_array.size do 
+    if source_array.size == true || source_array.size == false
+      return true
       
-#       i += 1
-#   end
-# end
+      i += 1
+  end
+end
